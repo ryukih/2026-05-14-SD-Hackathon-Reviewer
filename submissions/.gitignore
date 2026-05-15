@@ -1,0 +1,13 @@
+# Ignore everything in submissions/ by default,
+# so cloned submission repos are not tracked or pushed.
+*
+
+# Allow this .gitignore itself
+!.gitignore
+
+# Allow metadata files
+!list.xlsx
+!README.md
+
+# Allow reference materials (tracked in the parent repo)
+!reference/
